@@ -17,3 +17,46 @@ button{
     color: white;
     background-color: #025157;
 }
+
+.header {
+    margin: 40px 20px 0 20px;
+    font-size: 0;
+}
+
+li{
+    display: inline;
+}
+/*TODO LO QUE SEA HIJO DE HEADER APLICARA EL DISPLAY*/
+.header > * {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 45px;
+    height: 100%;
+    vertical-align: middle;
+}
+.logo{
+    width: 15%;
+}
+
+.logo > img{
+    width: 15%;
+}
+
+.navbar{
+    width: 70%;
+    text-align: center;
+    color: #025157;
+    font-weight: 500;
+}
+.actions{
+    width: 15%;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.body > p,h1,button,a,form{
+    text-align: center;
+}
+
+
